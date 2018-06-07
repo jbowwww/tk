@@ -1,0 +1,60 @@
+body {
+	background: black;
+	margin: 0px;
+	padding: 0px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQImWNQVFT8r6io+F9bW/u/trb2fwYMARgDJoEhAAD8KhcRNknVAQAAAABJRU5ErkJggg==);
+	color: rgb(160, 160, 160);
+	font-family: Arial;
+}
+.row {
+	padding: 0px 42px;
+	width: auto;
+	display: block;
+}
+.menu {
+	line-height: 1;
+	border-bottom: 1px solid rgb(72, 72, 72);
+	background: black;
+	background: linear-gradient(to bottom, rgba(6, 6, 6), rgba(45, 45, 45));
+}
+.menu nav {
+	padding: 0px;
+}
+.nav-tabs {
+	position: absolute;
+	bottom: 0px;
+	right: 28px;
+	width: 65%;
+	border: none;
+}
+.menu li {
+	margin-right: 12px;
+	font-size: smaller;
+}
+.nav-tabs .nav-link {
+	padding: 0.25rem 1rem;
+	text-decoration: none;
+	color: inherit;
+	background: black;
+	border: 1px solid rgb(72, 72, 72);
+	border-bottom: none;
+}
+.nav-tabs .nav-link.active {
+	background: rgb(238, 238, 238);
+}
+.nav-tabs .nav-link:hover {
+	color: rgb(72, 116, 198);
+	border-color: rgb(72, 72, 72);
+}
+.logo, .logo:hover {
+	padding: 0.25rem 18px 0rem 0px;*/
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+	font-size: 30pt;
+	font-family: "Play";
+	-webkit-text-stroke-width: 0.5px;
+}
+.content {
+	border-top: 4px solid rgb(6, 6, 6);
+	padding-top: 8px;
+}
